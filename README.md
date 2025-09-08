@@ -8,8 +8,10 @@
 
 ## ✨ Tính năng
 - Đăng nhập/Đăng ký
-- Quản lý thư viện
-- Đọc sách, ghi chú, đánh dấu
+- Quản lý sách đăng tải( quản lý đăng tải sách, thể loại, tác giả), quản lý bình luận nội dung, thống kê sách hot
+- Quản lý người dùng ứng dụng đọc sách
+- Quản lý thư viện, tiến độ đọc sách đã lưu
+- Đọc sách, ghi chú, đánh dấu trang, tìm kiếm nội dung trong sách...
 
 ## 📸 Demo
 ![Màn hình chính](./images/demo.png)
