@@ -7,17 +7,26 @@
 - MySQL
 
 ## ✨ Tính năng
-- Đăng nhập/Đăng ký
-- Quản lý sách đăng tải( quản lý đăng tải sách, thể loại, tác giả), quản lý bình luận nội dung, thống kê sách hot
-- Quản lý người dùng ứng dụng đọc sách
+- Đăng nhập/Đăng ký/Quên mật khẩu
+### Quản lý
+- Quản lý sách đăng tải
+- Quản lý thể loại
+- Quản lý tác giả
+- Quản lý bình luận (từng cuốn sách)
+- Thống kê sách
+  
+### Người dùng
+- Giao diện trang chủ giới thiệu sách/giới thiệu nội dung từng cuốn sách
+- Chức năng tìm kiếm sách (theo thể loại/tên/hình ảnh sách)
+- Thông báo (sách cập nhật, đăng tải sách)
 - Quản lý thư viện, tiến độ đọc sách đã lưu
-- Đọc sách, ghi chú, đánh dấu trang, tìm kiếm nội dung trong sách...
+- Đọc sách, ghi chú, đánh dấu trang, bình luận sách, cài đặt chế độ đọc, tìm kiếm nội dung trong sách...
+### Hỗ trợ ngôn ngữ (VN/EN)
 
 ## 📸 Demo
 ![Màn hình chính](./images/demo.png)
 
 ## 📂 Cấu trúc dự án
-- /backend → API Spring Boot
+- /backend → API Spring Boot, Kotlin
 - /android → App Android
-- /images → Hình ảnh minh họa
-
+- /database -> MySQL
