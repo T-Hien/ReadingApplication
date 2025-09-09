@@ -34,13 +34,21 @@
 
 # DIAGRAM
 ![Avatar](Image_Resume/Daigram.png)
-<img src="Image_Resume/Daigram.png" alt="Avatar" width="450"/>
 
 # Giao diện
 
 ## Giao diện người dùng (cơ bản)
 ### Trang chủ
 <img src="Image_Resume/Trangchu.png" alt="Avatar" width="250"/>
+
+### Thông tin sách
+<img src="Image_Resume/thongtinsach.jpg" alt="Avatar" width="250"/>
+
+#### Chương
+<img src="Image_Resume/thongtinsachchuong.jpg" alt="Avatar" width="250"/>
+
+#### Bình luận
+<img src="Image_Resume/thongtinsachbinhluan.jpg" alt="Avatar" width="250"/>
 
 ### Tìm kiếm
 <img src="Image_Resume/timkiem.jpg" alt="Avatar" width="250"/>
@@ -51,5 +59,18 @@
 ### Thông báo
 <img src="Image_Resume/thongbao.jpg" alt="Avatar" width="250"/>
 
+### Đọc sách
+<img src="Image_Resume/docsach.jpg" alt="Avatar" width="250"/>
+
+#### Ghi chú
+<img src="Image_Resume/docsachghichu.jpg" alt="Avatar" width="250"/>
+
+#### Tìm kiếm nội dung
+<img src="Image_Resume/docsachtimkiem1.jpg" alt="Avatar" width="250"/>
+
+#### Cài đặt chế độ đọc
+<img src="Image_Resume/docsachcaidatchedodoc.jpg" alt="Avatar" width="250"/>
 
 ## Giao diện quản lý (cơ bản)
+<img src="Image_Resume/nguoidoctrangchu.jpg" alt="Avatar" width="250"/>
+
