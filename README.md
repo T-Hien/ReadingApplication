@@ -34,22 +34,22 @@
 
 # DIAGRAM
 ![Avatar](Image_Resume/Daigram.png)
+<img src="Image_Resume/Daigram.png" alt="Avatar" width="450"/>
 
 # Giao diện
 
 ## Giao diện người dùng (cơ bản)
 ### Trang chủ
-![Avatar](Image_Resume/Trangchu.png)
+<img src="Image_Resume/Trangchu.png" alt="Avatar" width="250"/>
 
 ### Tìm kiếm
-![Avatar](Image_Resume/timkiem.jpg)
 <img src="Image_Resume/timkiem.jpg" alt="Avatar" width="250"/>
 
 ### Thư viện
-![Avatar](Image_Resume/thuviee.jpg)
+<img src="Image_Resume/thuviee.jpg" alt="Avatar" width="250"/>
 
 ### Thông báo
-![Avatar](Image_Resume/thongbao.jpg)
+<img src="Image_Resume/thongbao.jpg" alt="Avatar" width="250"/>
 
 
 ## Giao diện quản lý (cơ bản)
