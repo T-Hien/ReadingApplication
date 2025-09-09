@@ -72,5 +72,5 @@
 <img src="Image_Resume/docsachcaidatchedodoc.jpg" alt="Avatar" width="250"/>
 
 ## Giao diện quản lý (cơ bản)
-<img src="Image_Resume/nguoidoctrangchu.jpg" alt="Avatar" width="250"/>
+<img src="Image_Resume/nguoidungnguoidungtrangchu.jpg" alt="Avatar" width="250"/>
 
