@@ -33,4 +33,4 @@
 --------------------------------------------
 
 # DIAGRAM
-![Avatar](ReadingApplication/tree/main/Image_Resume/Diagram.png)
+![Avatar](tree/main/Image_Resume/Diagram.png)
