@@ -42,13 +42,13 @@
 ![Avatar](Image_Resume/Trangchu.png)
 
 ### Tìm kiếm
-![Avatar](Image_Resume/timkiem.png)
+![Avatar](Image_Resume/timkiem.jpg)
 
 ### Thư viện
-![Avatar](Image_Resume/thuviee.png)
+![Avatar](Image_Resume/thuviee.jpg)
 
 ### Thông báo
-![Avatar](Image_Resume/thongbao.png)
+![Avatar](Image_Resume/thongbao.jpg)
 
 
 ## Giao diện quản lý (cơ bản)
