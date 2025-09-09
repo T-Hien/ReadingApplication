@@ -30,3 +30,7 @@
 - /backend → API Spring Boot, Kotlin
 - /android → App Android
 - /database -> MySQL
+--------------------------------------------
+
+# DIAGRAM
+![Avatar](Image_Resume/Diagram.png)
