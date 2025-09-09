@@ -34,3 +34,21 @@
 
 # DIAGRAM
 ![Avatar](Image_Resume/Daigram.png)
+
+# Giao diện
+
+## Giao diện người dùng (cơ bản)
+### Trang chủ
+![Avatar](Image_Resume/Trangchu.png)
+
+### Tìm kiếm
+![Avatar](Image_Resume/timkiem.png)
+
+### Thư viện
+![Avatar](Image_Resume/thuviee.png)
+
+### Thông báo
+![Avatar](Image_Resume/thongbao.png)
+
+
+## Giao diện quản lý (cơ bản)
