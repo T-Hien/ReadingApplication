@@ -43,6 +43,7 @@
 
 ### Tìm kiếm
 ![Avatar](Image_Resume/timkiem.jpg)
+<img src="Image_Resume/timkiem.jpg" alt="Avatar" width="150"/>
 
 ### Thư viện
 ![Avatar](Image_Resume/thuviee.jpg)
