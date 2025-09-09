@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "readingapplication-f8a62",
+    "no": "ap-tn-bbec8",
+    "development": "readingapplication-f8a62"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

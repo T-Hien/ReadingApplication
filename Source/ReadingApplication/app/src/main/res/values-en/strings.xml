@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Adventure</string>
+    <string name="action_english">English</string>
+    <string name="action_vietnamese">Vietnamese</string>
+    <string name="welcome_message">Welcome to MyApp!</string>
+
+    //HOMEPAGEFRAMENT
+    <string name="title_home_v1">Discover</string>
+    <string name="title_home_v2">Category</string>
+    <string name="title_home_v3">Favorite</string>
+    <string name="title_home_v4">Latest</string>
+
+    //TEXT
+    //TEXT
+    //ACTIVITY
+    <string name="title_reading_introduce">Introduce</string>
+    <string name="title_reading_chapter">Chapter</string>
+    <string name="title_reading_commemt">Comment</string>
+
+    <string name="title_list_content">CONTENT</string>
+    <string name="title_list_position">POSITION</string>
+    <string name="title_list_bookmark">BOOKMARK</string>
+    <string name="title_list_note">NOTE</string>
+
+    <string name="title_library_all">All</string>
+    <string name="title_library_unread_read">Unread</string>
+    <string name="title_library_read">Read</string>
+
+    <string name="title_search_book">Book</string>
+    <string name="title_search_author">Author</string>
+    <string name="title_search_category">Category</string>
+
+    <string name="title_account">Add Account</string>
+    <string name="title_category">CATEGORY</string>
+    <string name="text_no_category">NO BOOKS IN THIS CATEGORY</string>
+    <string name="title_account_name">Account:</string>
+    <string name="title_name">Name:</string>
+    <string name="title_phone">Phone number:</string>
+    <string name="title_phone_v2">Phone number</string>
+    <string name="title_password_v2">Password:</string>
+    <string name="title_password_again">Re-enter password:</string>
+    <string name="title_password_again_v2">Re-enter password</string>
+    <string name="title_write_account">Enter account</string>
+    <string name="title_write_email">Enter email</string>
+    <string name="title_password">Password</string>
+    <string name="title_name_user">Full name</string>
+    <string name="title_name_account_user">Username</string>
+    <string name="title_already_have_an_account">Already have an account?</string>
+
+    <string name="text_please_write_phone">Invalid phone number.\nPlease enter a valid phone number.</string>
+    <string name="text_please_write_account">Invalid username.\nPlease enter a valid username.</string>
+    <string name="text_email_sent_successfully">Password has been sent to your email!</string>
+    <string name="text_login_successfully">Login successful!</string>
+    <string name="text_please_write_infor_login">Please enter complete login information</string>
+    <string name="text_account_block">Account has been locked!</string>
+    <string name="text_account_failed">Incorrect username information or password!</string>
+    <string name="text_account_password_failed">Incorrect password!</string>
+    <string name="text_account_username_failed">Incorrect username information!</string>
+    <string name="text_create_account">Account created successfully!</string>
+    <string name="text_please_enter_name">Please enter your full name</string>
+    <string name="text_please_enter_username">Please enter a username</string>
+    <string name="text_please_enter_password">Please enter a password</string>
+    <string name="text_please_enter_password_again">Please re-enter the password</string>
+    <string name="text_please_enter_phone">Please enter your phone number</string>
+    <string name="text_please_enter_email">Please enter your email</string>
+    <string name="text_please_enter_find">Please enter a search term!</string>
+    <string name="text_password_and_password_again_different">Password and re-entered password do not match!</string>
+    <string name="text_no_chapter_before">No previous chapter!</string>
+    <string name="text_no_chapter_after">No next chapter!</string>
+    <string name="text_no_chapter">No chapter found!</string>
+    <string name="text_write_infor_note">Enter note content!</string>
+    <string name="text_write_note_successfully">Note added successfully!</string>
+    <string name="text_write_note_v2_successfully">Comment added successfully!</string>
+    <string name="text_write_bookmark_successfully">Bookmark added successfully!</string>
+    <string name="text_write_setting_successfully">Setting added successfully!</string>
+    <string name="text_failed_to_download">Failed to download the file!</string>
+    <string name="text_refult_find">Search result!</string>
+    <string name="text_no_refult_find">No search results found!</string>
+    <string name="text_have">Have</string>
+    <string name="text_chapter">Chapter</string>
+    <string name="text_please_write_note">Please log in to comment</string>
+    <string name="text_please_write_reading_mode">To set the default reading mode\nPlease log in to your account</string>
+    <string name="text_no_author_find">No author found</string>
+    <string name="text_no_book_find">No book found</string>
+    <string name="text_no_category_find">No category found</string>
+
+    //FRAGMENT
+    <string name="title_detective">Detective</string>
+    <string name="title_emotional">Romantic</string>
+    <string name="title_investigate">Investigation</string>
+    <string name="title_recently_viewed">Recently Viewed</string>
+    <string name="title_personal_development">Personal Development</string>
+
+    <string name="text_write_comment">Enter comment....</string>
+    <string name="text_write_find_v2">Enter information to find....</string>
+    <string name="text_write_find">Enter the keyword to search....</string>
+    <string name="text_write_no_book">No books stored</string>
+    <string name="text_system">System</string>
+    <string name="text_no_notification">No notifications</string>
+    <string name="text_font">Font</string>
+    <string name="text_font_size">Font Size</string>
+    <string name="text_reading_mode">Reading Mode</string>
+    <string name="text_recently_find">Recently Searched</string>
+
+    //LAYOUT
+    <string name="title_add_book">Add Book</string>
+    <string name="title_add_author">Add Author</string>
+    <string name="text_birthday">Year of Birth</string>
+    <string name="text_deathday">Year of Death (if any)</string>
+    <string name="text_info_author">Enter author name</string>
+    <string name="text_write_description">Enter description</string>
+    <string name="text_infor_category">Enter category name</string>
+    <string name="text_chapter_name">Chapter Name</string>
+    <string name="text_author_name">Author:</string>
+    <string name="text_category_name">Category:</string>
+    <string name="text_chapter_name_v2">Chapter</string>
+    <string name="text_position">Position:</string>
+
+    //BUTTON
+    //ACTIVITY
+    <string name="button_before">Previous</string>
+    <string name="button_after">Next</string>
+    <string name="button_recovory">Recover</string>
+    <string name="button_forgot_password">Forgot Password</string>
+    <string name="button_sign_up_for_account">Sign Up for Account</string>
+    <string name="button_add_library">Added to Library</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_password_recovery">PASSWORD RECOVERY</string>
+    <string name="title_account_name_v2">Username</string>
+
+    <string name="button_see_more">See More</string>
+    <string name="button_more">More</string>
+    <string name="button_logout">Log Out</string>
+    <string name="button_login">Log In</string>
+    <string name="button_share_with_friends">Share with Friends</string>
+    <string name="button_user_manual">User Manual</string>
+    <string name="button_language_settings">Language Settings</string>
+    <string name="button_send">Send</string>
+    <string name="button_complete">Complete</string>
+    <string name="button_update">Edit</string>
+    <string name="button_update_v2">Update</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_block">Block</string>
+
+    //LAYOUT
+    <string name="button_feedback">Feedback</string>
+
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phiêu</string>
+    <string name="action_english">Tiếng Anh</string>
+    <string name="action_vietnamese">Tiếng Việt</string>
+    <string name="welcome_message">Chào mừng bạn đến với Ứng Dụng Của Tôi!</string>
+
+    //HOMEPAGE
+    <string name="title_home_v1">Khám phá</string>
+    <string name="title_home_v2">Danh mục</string>
+    <string name="title_home_v3">Yêu thích</string>
+    <string name="title_home_v4">Mới nhất</string>
+
+    //TEXT
+    //ACTIVITY
+    <string name="title_reading_introduce">Giới thiệu</string>
+    <string name="title_reading_chapter">Chương</string>
+    <string name="title_reading_commemt">Bình luận</string>
+
+    <string name="title_list_content">NỘI DUNG</string>
+    <string name="title_list_position">VỊ TRÍ</string>
+    <string name="title_list_bookmark">ĐÁNH DẤU</string>
+    <string name="title_list_note">GHI CHÚ</string>
+
+    <string name="title_library_all">Tất cả</string>
+    <string name="title_library_unread_read">Chưa đọc</string>
+    <string name="title_library_read">Đã đọc</string>
+
+    <string name="title_search_book">Sách</string>
+    <string name="title_search_author">Tác giả</string>
+    <string name="title_search_category">Danh mục</string>
+
+
+
+    <string name="title_account">Thêm tài khoản</string>
+    <string name="title_category">DANH MỤC</string>
+    <string name="text_no_category">CHƯA CÓ SÁCH THUỘC THỂ LOẠI</string>
+    <string name="title_account_name">Tài khoản:</string>
+    <string name="title_name">Tên:</string>
+    <string name="title_phone">Số điện thoại:</string>
+    <string name="title_phone_v2">Số điện thoại</string>
+    <string name="title_password_v2">Mật khẩu:</string>
+    <string name="title_password_again">Nhập lại mật khẩu:</string>
+    <string name="title_password_again_v2">Nhập lại mật khẩu</string>
+    <string name="title_write_account">Nhập tài khoản</string>
+    <string name="title_write_email">Nhập email</string>
+    <string name="title_password">Mật khẩu</string>
+    <string name="title_name_user">Họ và tên</string>
+    <string name="title_name_account_user">Tên đăng nhập</string>
+    <string name="title_already_have_an_account">Bạn đã có tài khoản?</string>
+
+
+    <string name="text_please_write_phone">Số điện thoại không đúng.\n Vui lòng nhập đúng số điện thoại.</string>
+    <string name="text_please_write_account">Tên đăng nhập không đúng.\nVui lòng nhập đúng tên đăng nhập.</string>
+    <string name="text_email_sent_successfully">Mật khẩu đã gửi đến email của bạn!</string>
+    <string name="text_login_successfully">Đăng nhập thành công!</string>
+    <string name="text_please_write_infor_login">Vui lòng nhập đầy đủ thông tin đăng nhập</string>
+    <string name="text_account_block">Tài khoản đã bị khóa!</string>
+    <string name="text_account_failed">Thông tin tài khoản hoặc mật khẩu sai!</string>
+    <string name="text_account_password_failed">Thông tin mật khẩu sai!</string>
+    <string name="text_account_username_failed">Thông tin tài khoản sai!</string>
+    <string name="text_create_account">Tạo tài khoản thành công!</string>
+    <string name="text_please_enter_name">Vui lòng nhập họ tên</string>
+    <string name="text_please_enter_username">Vui lòng nhập tên đăng nhập</string>
+    <string name="text_please_enter_password">Vui lòng nhập mật khẩu</string>
+    <string name="text_please_enter_password_again">Vui lòng nhập lại mật khẩu</string>
+    <string name="text_please_enter_phone">Vui lòng nhập số điện thoại</string>
+    <string name="text_please_enter_email">Vui lòng nhập email</string>
+    <string name="text_please_enter_find">Vui lòng nhập từ cần tìm!</string>
+    <string name="text_password_and_password_again_different">Mật khẩu và nhập lại mật khẩu không giống!</string>
+    <string name="text_no_chapter_before">Không có chương trước đó!</string>
+    <string name="text_no_chapter_after">Không có chương sau!</string>
+    <string name="text_no_chapter">Không tìm thấy chương!</string>
+    <string name="text_write_infor_note">Nhập nội dung cần ghi chú!</string>
+    <string name="text_write_note_successfully">Ghi chú thành công!</string>
+    <string name="text_write_note_v2_successfully">Bình luận thành công!</string>
+    <string name="text_write_setting_successfully">Cài đặt thành công!</string>
+    <string name="text_write_bookmark_successfully">Thêm đánh dấu thành công!</string>
+    <string name="text_failed_to_download">Tải file thất bại!</string>
+    <string name="text_refult_find">kết quả tìm kiếm!</string>
+    <string name="text_no_refult_find">Không có từ cần tìm kiếm!</string>
+    <string name="text_have">Có</string>
+    <string name="text_chapter">Chương</string>
+    <string name="text_please_write_note">Vui lòng đăng nhập để bình luận</string>
+    <string name="text_please_write_reading_mode">Để cài đặt chế độ đọc mặc định\n Vui lòng đăng nhập tài khoản</string>
+    <string name="text_no_author_find">Không có tác giả muốn tìm</string>
+    <string name="text_no_book_find">Không có sách muốn tìm</string>
+    <string name="text_no_category_find">Không có thể loại muốn tìm</string>
+
+
+    //FRAGMENT
+    <string name="title_detective">Trinh thám</string>
+    <string name="title_emotional">Tình cảm</string>
+    <string name="title_investigate">Điều tra</string>
+    <string name="title_recently_viewed">Đã xem gần đây</string>
+    <string name="title_personal_development">Phát triển bản thân</string>
+
+    <string name="text_write_comment">Nhập bình luận....</string>
+    <string name="text_write_find_v2">Nhập thông tin cần tìm....</string>
+    <string name="text_write_find">Nhập từ khóa cần tìm....</string>
+    <string name="text_write_no_book">Không có sách lưu trữ</string>
+    <string name="text_system">Hệ thống</string>
+    <string name="text_no_notification">Không có thông báo</string>
+    <string name="text_font">Phông chữ</string>
+    <string name="text_font_size">Cỡ chữ</string>
+    <string name="text_reading_mode">Chế độ đọc</string>
+    <string name="text_recently_find">Tìm kiếm gần đây</string>
+
+    //LAYOUT
+    <string name="title_add_book">Thêm sách</string>
+    <string name="title_add_author">Thêm tác giả</string>
+    <string name="text_birthday">Năm sinh</string>
+    <string name="text_deathday">Năm mất (nếu có)</string>
+    <string name="text_info_author">Nhập tên tác giả</string>
+    <string name="text_write_description">Nhập mô tả</string>
+    <string name="text_infor_category">Nhập tên thể loại</string>
+    <string name="text_chapter_name">Tên chương</string>
+    <string name="text_author_name">Tác giả:</string>
+    <string name="text_category_name">Thể loại:</string>
+    <string name="text_chapter_name_v2">Chương</string>
+    <string name="text_position">Vị trí:</string>
+
+
+    //BUTTON
+    //ACTIVITY
+    <string name="button_before">Trước</string>
+    <string name="button_after">Sau</string>
+    <string name="button_recovory">Khôi phục</string>
+    <string name="button_forgot_password">Quên mật khẩu</string>
+    <string name="button_sign_up_for_account">Đăng kí tài khoản</string>
+    <string name="button_add_library">Đã thêm vào thư viện</string>
+    <string name="button_sign_up">Đăng ký</string>
+    <string name="button_password_recovery">KHÔI PHỤC MẬT KHẨU</string>
+    <string name="title_account_name_v2">Tài khoản</string>
+
+
+
+    <string name="button_see_more">Xem thêm</string>
+    <string name="button_more">Thêm</string>
+    <string name="button_logout">Đăng xuất</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="button_share_with_friends">Chia sẻ với bạn bè</string>
+    <string name="button_user_manual">Hướng dẫn sử dụng</string>
+    <string name="button_language_settings">Thiết lập ngôn ngữ</string>
+    <string name="button_send">Gửi</string>
+    <string name="button_complete">Hoàn tất</string>
+    <string name="button_update">Sửa</string>
+    <string name="button_update_v2">Cập nhật</string>
+    <string name="button_exit">Thoát</string>
+    <string name="button_delete">Xóa</string>
+    <string name="button_block">Khóa</string>
+
+    //LAYOUT
+    <string name="button_feedback">Phản hồi</string>
+
+
+
+</resources>

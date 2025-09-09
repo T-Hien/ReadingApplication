@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/book.epub" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/book1.epub" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/book2.epub" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/book3.epub" charset="UTF-16" />
+  </component>
+</project>

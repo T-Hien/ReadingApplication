@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_night">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSearchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/btnSearch"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_magnifying_glass_solid_black" />
+
+            <EditText
+                android:id="@+id/edtSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginStart="8dp"
+                android:hint="@string/text_write_find"
+                android:textColorHint="#90000000"
+                android:textSize="16sp"
+                android:background="@null"
+                android:inputType="text" />
+            <ImageView
+                android:id="@+id/btnRemove"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_x_solid"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/btnImage"
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/baseline_image_search_black_24" />
+
+            <ImageView
+                android:id="@+id/btnCamera"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_camera_alt_black_24" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Dòng phân cách -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/cvSearchBar"
+        android:layout_marginVertical="8dp"
+        android:background="@color/white" />
+
+    <!-- TabLayout và ViewPager -->
+    <LinearLayout
+        android:id="@+id/rlRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cvSearchBar"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tlListSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@android:color/holo_orange_light"
+            app:tabSelectedTextColor="@android:color/holo_orange_light"
+            app:tabTextColor="#CCC8C8"
+            android:paddingTop="5dp"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vpListSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:background="#13022F"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true"
+        android:layout_gravity="top|center_horizontal"
+        android:visibility="gone"
+        android:background="#5CFFFEFE"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSuggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/btnNotifiSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:layout_below="@id/cvSearchBar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/cvSearchBar"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/imgPicture"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_below="@id/cvSearchBar"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/btnCapture"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_camera_alt_24"
+        android:layout_below="@id/cameraPreview"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:visibility="gone"
+        android:indeterminateTint="#089E0F"
+        android:layout_gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_night">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/background_night"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:id="@+id/btnExit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"/>
+            <TextView
+                android:id="@+id/txtCategoryType"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:textColor="#FFFF"
+                android:text="@string/title_category"
+                android:textSize="15sp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="#FFFF"
+            android:text="@string/text_no_category"
+            android:padding="10dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/txtNotification"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="13sp"
+            android:textColor="#FFFF"
+            android:text="@string/text_no_category"
+            android:gravity="center"
+            android:visibility="gone"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvListCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header Image -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_weight="2"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#EFEFEF"
+            android:layout_marginTop="16dp"
+            android:padding="5dp"
+            android:elevation="2dp">
+
+            <!-- Exit Button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+                <ImageView
+                    android:id="@+id/btnExitMode"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/baseline_clear_red_24" />
+            </LinearLayout>
+
+            <!-- Font Selection -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/text_font"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="2dp">
+                    <Spinner
+                        android:id="@+id/txtFont"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#00FFFFFF" />
+                </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:id="@+id/btnDefault1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/baseline_disabled_by_default_red_24" />
+            </LinearLayout>
+
+            <!-- Font Size -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/text_font_size"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="5dp">
+                    <ImageView
+                        android:id="@+id/btnMinusSize"
+                        android:layout_width="26dp"
+                        android:layout_height="22dp"
+                        android:background="@color/bg_btn_size"
+                        android:src="@drawable/baseline_horizontal_rule_24" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="2dp">
+                    <EditText
+                        android:id="@+id/txtFontSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:text="15"
+                        android:textAlignment="center"
+                        android:textSize="13sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginLeft="5dp">
+                    <ImageView
+                        android:id="@+id/btnAddSize"
+                        android:layout_width="26dp"
+                        android:layout_height="22dp"
+                        android:background="@color/bg_btn_size"
+                        android:src="@drawable/baseline_add_24" />
+                </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:id="@+id/btnDefault2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/baseline_disabled_by_default_red_24" />
+            </LinearLayout>
+
+            <!-- Reading Mode -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/text_reading_mode"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="2dp">
+                    <Spinner
+                        android:id="@+id/snReadingMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#00FFFFFF" />
+                </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:id="@+id/btnDefault3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/baseline_disabled_by_default_red_24"
+                    android:layout_marginBottom="2dp"/>
+            </LinearLayout>
+
+            <!-- Complete Button -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="200dp">
+                <TextView
+                    android:id="@+id/btnComplete"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:background="#076B0C"
+                    android:gravity="center"
+                    android:text="@string/button_complete"
+                    android:textColor="#FFFF"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

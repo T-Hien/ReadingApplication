@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10079324725",
+    "project_id": "readingapplication-f8a62",
+    "storage_bucket": "readingapplication-f8a62.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10079324725:android:ad31083e3c0fb63c81bf7c",
+        "android_client_info": {
+          "package_name": "vn.example.readingapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_Yh0wA0oK5XHh_9K-UMBkezBL0EheuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

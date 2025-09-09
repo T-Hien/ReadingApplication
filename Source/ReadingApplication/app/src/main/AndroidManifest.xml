@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="vn.example.readingapplication">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+
+
+<!--    <uses-permission-->
+<!--        android:name="android.permission.READ_EXTERNAL_STORAGE"-->
+<!--        android:maxSdkVersion="32" />-->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bg_app"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/bg_app"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.ReadingApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.admin.account.IntroduceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.statics.FavoriteStaticActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.StatisticalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.UserManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.user.EpubActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.user.bookauthor.BookAuthorHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.user.category.CategoryHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.user.CategoriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.EditAccountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LanguageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoadingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.admin.AuthorManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.account.AddAcountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.account.UpdateAcountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.author.AddAuthorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.CategoryManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.BookManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.CommentManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.book.AddBookActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.book.UpdateBookActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.category.AddCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.admin.category.UpdateCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainAdminActivity"
+            android:exported="true" /> <!-- USER -->
+        <activity
+            android:name=".activity.ForgotPasswordActivity"
+            android:exported="true" />
+<!--        <activity-->
+<!--            android:name=".activity.OTPVerificationActivity"-->
+<!--            android:exported="true" />-->
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.user.ReadBookActivity"
+            android:exported="true"
+            android:theme="@style/Theme.OverlayToolBar.NoActionBar" />
+        <activity
+            android:name=".activity.user.ReadingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.OverlayToolBar.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.OverlayToolBar.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+        <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.vivu.com"
+                    android:path="/somepath"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

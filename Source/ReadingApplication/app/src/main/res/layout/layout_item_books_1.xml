@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="105dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp">
+    <FrameLayout
+        android:id="@+id/lnImgBook"
+        android:layout_width="105dp"
+        android:layout_height="135dp"
+        android:background="@drawable/bg_corner_account">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imgBook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_book_nguoi_don_dep_hien_truong"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/txtGenresBook"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Phát triển bản thân"
+                android:textColor="#FFFFFF"
+                android:textSize="8sp"
+                android:gravity="center"
+                android:background="#4CAF50"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"/>
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <TextView
+        android:id="@+id/txtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thám tử lừng danh Conan"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

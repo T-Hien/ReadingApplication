@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="purple">#800080</color>
+    <color name="orange">#FFA500</color>
+    <color name="background_night">#ED170438</color>
+    <color name="background_night_reading">#170438</color>
+    <color name="background_readbook">#C1A8ED</color>
+    <color name="background_night_v2">#170438</color>
+    <color name="background_sun">#00FFFFFF</color>
+    <color name="background_night_showbook">#9738147C</color>
+    <color name="background_night_find">#86FFFFFF</color>
+    <color name="button_chap">#1BA621</color>
+    <color name="text_black">#00020F</color>
+
+    <color name="background_add">#095D03</color>
+    <color name="background_edit">#129E08</color>
+    <color name="background_reply">#1D8BE2</color>
+    <color name="background_delete">#B31408</color>
+    <color name="background_cancel">#585958</color>
+    <color name="text_reply">#BCFFFFFF</color>
+    <color name="notification_delete">#950F05</color>
+    <color name="background_dialog">#6B757171</color>
+    <color name="background_ln_comment">#DC000000</color>
+    <color name="background_ln_reply">#D3000000</color>
+    <color name="text_hint_nignt">#A1FFFFFF</color>
+    <color name="text_hint_sun">#F06A6565</color>
+    <color name="text_green">#ED248E28</color>
+    <color name="text_organe">#E8FF9800</color>
+
+    <!-- BG   -->
+    <color name="background_BN">#D9D0DE</color>
+    <color name="background_BD">#000000</color>
+    <color name="text_BN">#000000</color>
+    <color name="text_BD">#FFFFFF</color>
+    <color name="backgrond_note">#EEA2261D</color>
+    <color name="bg_btn_size">#DF666B66</color>
+    <color name="bg_btn_size_v2">#F74D4845</color>
+
+
+
+
+
+
+
+
+
+</resources>
