@@ -33,4 +33,4 @@
 --------------------------------------------
 
 # DIAGRAM
-![Avatar](blob/main/Image_Resume/Daigram.png)
+![Avatar](Image_Resume/Daigram.png)
